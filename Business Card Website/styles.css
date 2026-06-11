@@ -86,3 +86,27 @@ body {
     color: #FF6F91;
 }
 
+
+/* Responsive Design (for Phone screens) */
+
+@media (max-width: 800px) {
+    .business-card-container {
+        flex-direction: column-reverse;
+        width: 90%;
+        min-width: auto;
+    }
+    .stats{
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+    .card-image-container {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .card-image-container img {
+        height: auto;
+    }
+}
+
+
